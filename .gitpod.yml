@@ -2,6 +2,8 @@ image:
   file: .gitpod.Dockerfile
 
 ports:
+- port: 5432 # PostgreSQL
+  onOpen: ignore
 - port: 8050 # Dash App
   onOpen: open-preview
 - port: 8888 # Jupyter Notebook
@@ -9,8 +11,8 @@ ports:
 
 tasks:
   - init: |
-      ./run.sh
+      pip install -r requirements.txt
       sudo cp -r .jupyter /home/gitpod/
     command: |
-      python3 dash_intro.py
-  - command: gp await-port 8050 && gp preview "$(gp url 8050)"
+      python dash_intro.py
+  - command: gp await-port 8050 && sleep 2 && gp preview "$(gp url 8050)"

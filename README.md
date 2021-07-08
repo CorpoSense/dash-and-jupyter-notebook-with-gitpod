@@ -1,14 +1,12 @@
-# dash-and-jupyter-notebook-with-gitpod
+# Dash Jupyter Notebook on Gitpod
 
-Simple samples to develop [Dash - A web application framework for Python](https://plot.ly/products/dash/)
-and [jupyter-notebook](https://jupyter.org/) applications on [gitpod](https://gitpod.io/). You can develop and analyse everywhere you like!
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CorpoSense/dash-and-jupyter-notebook-with-gitpod)
+
+Simple samples to develop [Dash - A web application framework for Python](https://plot.ly/products/dash/) and [jupyter-notebook](https://jupyter.org/) applications on [gitpod](https://gitpod.io/). You can develop and analyse everywhere you like!
 
 ![Screen shot](./sshot.png "Screen shot")
 ![Screen shot2](./sshot2.png "Screen shot2")
 
-# Usage
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CorpoSense/dash-and-jupyter-notebook-with-gitpod)
 
 ## Dash ~ simple sample
 
