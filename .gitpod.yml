@@ -1,8 +1,16 @@
+image:
+  file: .gitpod.Dockerfile
+
 ports:
-- port: 8050
+- port: 8050 # Dash App
   onOpen: open-preview
-- port: 8888
+- port: 8888 # Jupyter Notebook
   onOpen: open-browser
+
 tasks:
-- init: /workspace/dash-and-jupyter-notebook-with-gitpod/run.sh
-  command: cp -r /workspace/dash-and-jupyter-notebook-with-gitpod/.jupyter /home/gitpod/
+  - init: |
+      ./run.sh
+      sudo cp -r .jupyter /home/gitpod/
+    command: |
+      python3 dash_intro.py
+  - command: gp await-port 8050 && gp preview "$(gp url 8050)"

@@ -8,7 +8,7 @@ and [jupyter-notebook](https://jupyter.org/) applications on [gitpod](https://gi
 
 # Usage
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jins-tkomoda/dash-with-gitpod)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CorpoSense/dash-and-jupyter-notebook-with-gitpod)
 
 ## Dash ~ simple sample
 
