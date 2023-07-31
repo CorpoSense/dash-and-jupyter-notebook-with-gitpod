@@ -1,6 +1,6 @@
 # Dash Jupyter Notebook on Gitpod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitpod.io/from-referrer/)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
 
 Simple samples to develop [Dash - A web application framework for Python](https://plot.ly/products/dash/) and [jupyter-notebook](https://jupyter.org/) applications on [gitpod](https://gitpod.io/). You can develop and analyse everywhere you like!
 
