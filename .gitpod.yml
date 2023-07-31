@@ -12,6 +12,7 @@ ports:
 tasks:
   - init: |
       pip install -r requirements.txt
+      pip install pyppeteer  nbconvert[webpdf] nbconvert[qtpdf]
       sudo cp -r .jupyter /home/gitpod/
     command: |
       python dash_intro.py
